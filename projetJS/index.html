@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="fr">
+    <meta charset="UTF-8">
+    <title>Lecture de Podcast audio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <h1>Podcast viewer 0.9b</h1>
+    <p>Entrez l'adresse url du podcast à l'endroit indiqué.</p>
+    <hr>
+</header>
+
+    <form id="adressForm">
+        <label for="url">Entrez l'url du podcast</label>
+        <input id="url" type="text" placeholder="URL"/>
+
+        <label for="submit"></label>
+        <input id="submit" type="button" value="Envoyer">
+    </form>
+    <hr>
+    <h2 id="info">Informations sur le podcast</h2>
+    <h2 id="titrePod"></h2>
+    <div>
+        <h3>Descriptions : </h3>
+        <p id="descriptionContent"></p>
+    </div>
+    <hr>
+    <script type="text/javascript" src="index.js">
+    </script>
+    <table id="tab">
+        <tr>
+            <th id="lecteur">Lecteur</th>
+            <th id="title">Titre</th>
+            <th id="time">Date de publication</th>
+        </tr>
+    </table>
+<footer>
+    <p>Sous licence MIT ©Philippe Giraudeau</p>
+</footer>
+</body>
+
+</html>

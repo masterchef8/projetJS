@@ -1,0 +1,19 @@
+body{
+    margin: auto;
+    width: 500px;
+    background: #dbf1ff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 10px;
+}
+
+#tab{
+    width: 100%;
+}
+th#lecture{
+    width: 100px;
+}
+th, td{
+    border: solid 1px;
+
+}
+
